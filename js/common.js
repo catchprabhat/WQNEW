@@ -15,7 +15,7 @@ function platinumNavigation(activePage) {
     }
 }
 
-/*function iboNavigation(activePage) {
+function iboNavigation(activePage) {
     var user = sessionStorage.getItem("userType");
     if (user == "ibo") {
         $('#wqmenu').html('<li><a id="Dashboard" href="/WQNEW/ibo/ibodashboard.html"><i class="bx bx-grid-alt"></i><span class="link_name">Dashboard</span></a></li>\
@@ -47,9 +47,9 @@ function platinumNavigation(activePage) {
     if (activePage) {
         $('#' + activePage).addClass('active');
     }
-}*/
+}
 
-function iboNavigation(activePage) {
+/*function iboNavigation(activePage) {
     var user = sessionStorage.getItem("userType");
     if (user == "ibo") {
         $('#wqmenu').html('<li><a id="Dashboard" href="ibo/ibodashboard.html"><i class="bx bx-grid-alt"></i><span class="link_name">Dashboard</span></a></li>\
@@ -81,7 +81,7 @@ function iboNavigation(activePage) {
     if (activePage) {
         $('#' + activePage).addClass('active');
     }
-}
+}*/
 
 function copyWellness() {
     // Get the text field
